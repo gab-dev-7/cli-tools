@@ -1,14 +1,3 @@
----
-layout: default
-title: CLI Tools
----
-
-# CLI Tools Collection
-
-A curated collection of command-line tools I've developed for various purposes.
-
----
-
 ## 🛡️ Sec-Suite
 
 **A comprehensive security auditing toolkit for modern infrastructure**

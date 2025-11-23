@@ -1,11 +1,3 @@
-## File 4: `port-scanner.md`
-
-````markdown
----
-layout: default
-title: Port-Scanner
----
-
 # 🔍 Port-Scanner
 
 **GitHub Repository:** [gab-dev-7/port-scanner](https://github.com/gab-dev-7/port-scanner)
@@ -26,6 +18,7 @@ cd port-scanner
 pip install -r requirements.txt
 chmod +x port_scanner.py
 ```
+
 ````
 
 ## Usage Examples
@@ -55,8 +48,7 @@ chmod +x port_scanner.py
 - **Concurrent.Futures**: Parallel scanning operations
 - **Argparse**: Robust command-line interface
 
-[← Back to CLI Tools Overview](../)
+[← Back to Overview](../)
 
-```
 
-```
+````

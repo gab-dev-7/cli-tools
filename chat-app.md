@@ -1,11 +1,3 @@
-## File 5: `chat-app.md`
-
-````markdown
----
-layout: default
-title: Chat-App
----
-
 # 💬 Chat-App
 
 **GitHub Repository:** [gab-dev-7/chat-app](https://github.com/gab-dev-7/chat-app)
@@ -25,6 +17,7 @@ git clone https://github.com/gab-dev-7/chat-app.git
 cd chat-app
 pip install -r requirements.txt
 ```
+
 ````
 
 ## Usage Examples
@@ -54,8 +47,7 @@ python chat_client.py --server localhost --room general --username bob
 - **Threading**: Concurrent client handling
 - **SQLite**: User and message data storage
 
-[← Back to CLI Tools Overview](../)
+[← Back to Overview](../)
 
-```
 
-```
+````

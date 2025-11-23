@@ -1,11 +1,3 @@
-## File 3: `sec-suite.md`
-
-````markdown
----
-layout: default
-title: Sec-Suite
----
-
 # 🛡️ Sec-Suite
 
 **GitHub Repository:** [gab-dev-7/sec-suite](https://github.com/gab-dev-7/sec-suite)
@@ -31,6 +23,7 @@ pip install -r requirements.txt
 # Make executable
 chmod +x sec-suite.py
 ```
+
 ````
 
 ## Usage Examples
@@ -60,8 +53,6 @@ chmod +x sec-suite.py
 - **REST APIs**: Integration with security scanners
 - **YAML/JSON**: Configuration and report generation
 
-[← Back to CLI Tools Overview](../)
+[← Back to Overview](../)
 
-```
-
-```
+````
