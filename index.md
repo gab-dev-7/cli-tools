@@ -9,7 +9,7 @@ title: Home
     <h3>🛡️ Sec-Suite</h3>
     <p>Automated security scanning and vulnerability assessment tool for DevOps pipelines. Integrates with CI/CD.</p>
     <div>
-      <code>Python</code> <code>Docker</code> <code>YAML</code>
+      <code>python</code> <code>passwords</code> <code>network</code>
     </div>
     <a href="./sec-suite" class="btn">View Tool</a>
   </div>
@@ -18,7 +18,7 @@ title: Home
     <h3>🔍 Port-Scanner</h3>
     <p>High-performance network reconnaissance. Fast, efficient port scanning with detailed service detection.</p>
     <div>
-      <code>C</code> <code>Sockets</code> <code>Raw Packets</code>
+      <code>C</code> <code>Reconnaissance</code> <code>Raw Packets</code>
     </div>
     <a href="./port-scanner" class="btn">View Tool</a>
   </div>
@@ -27,7 +27,7 @@ title: Home
     <h3>💬 Chat-App</h3>
     <p>Real-time terminal-based chat application. Server/Client model with support for multiple users.</p>
     <div>
-      <code>C</code> <code>Threads</code> <code>Sockets</code>
+      <code>C</code> <code>TCP</code> <code>Sockets</code>
     </div>
     <a href="./chat-app" class="btn">View Tool</a>
   </div>
