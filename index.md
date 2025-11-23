@@ -41,7 +41,8 @@ title: Home
 All tools are designed to be light, fast, and pipe-able.
 
 ```bash
-# Example: Compile and Run Port Scanner
+Example: Compile and Run Port Scanner
+
 git clone [https://github.com/gab-dev-7/port-scanner](https://github.com/gab-dev-7/port-scanner)
 cd port-scanner
 gcc port_scanner.c -o scanner
