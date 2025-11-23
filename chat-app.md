@@ -18,20 +18,19 @@ cd chat-app
 pip install -r requirements.txt
 ```
 
-````
-
 ## Usage Examples
 
-```bash
 # Start the chat server
+
 python chat_server.py --port 8888 --host 0.0.0.0
 
 # Connect as a client
+
 python chat_client.py --server 192.168.1.100 --port 8888 --username alice
 
 # Join specific room
+
 python chat_client.py --server localhost --room general --username bob
-```
 
 ## Features in Detail
 
@@ -48,6 +47,3 @@ python chat_client.py --server localhost --room general --username bob
 - **SQLite**: User and message data storage
 
 [← Back to Overview](../)
-
-
-````

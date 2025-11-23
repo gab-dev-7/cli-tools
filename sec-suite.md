@@ -24,20 +24,19 @@ pip install -r requirements.txt
 chmod +x sec-suite.py
 ```
 
-````
-
 ## Usage Examples
 
-```bash
 # Basic scan
+
 ./sec-suite.py scan --target myapp:latest
 
 # Comprehensive assessment
+
 ./sec-suite.py comprehensive --config security-config.yml
 
 # Generate reports
+
 ./sec-suite.py report --format html --output security-report.html
-```
 
 ## Features in Detail
 
@@ -54,5 +53,3 @@ chmod +x sec-suite.py
 - **YAML/JSON**: Configuration and report generation
 
 [← Back to Overview](../)
-
-````

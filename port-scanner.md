@@ -19,20 +19,19 @@ pip install -r requirements.txt
 chmod +x port_scanner.py
 ```
 
-````
-
 ## Usage Examples
 
-```bash
 # Basic port scan
+
 ./port_scanner.py --target 192.168.1.1
 
 # Specific port range with service detection
+
 ./port_scanner.py --target example.com --ports 1-1000 --service-detection
 
 # Save results to file
+
 ./port_scanner.py --target 10.0.0.1 --output scan_results.json
-```
 
 ## Features in Detail
 
@@ -49,6 +48,3 @@ chmod +x port_scanner.py
 - **Argparse**: Robust command-line interface
 
 [← Back to Overview](../)
-
-
-````
