@@ -18,16 +18,16 @@ title: Home
     <h3>🔍 Port-Scanner</h3>
     <p>High-performance network reconnaissance. Fast, efficient port scanning with detailed service detection.</p>
     <div>
-      <code>Python</code> <code>Sockets</code> <code>Async</code>
+      <code>C</code> <code>Sockets</code> <code>Raw Packets</code>
     </div>
     <a href="./port-scanner" class="btn">View Tool</a>
   </div>
 
   <div class="card">
     <h3>💬 Chat-App</h3>
-    <p>Real-time terminal-based chat application. Supports multiple rooms and user authentication.</p>
+    <p>Real-time terminal-based chat application. Server/Client model with support for multiple users.</p>
     <div>
-      <code>Python</code> <code>Threading</code> <code>SQLite</code>
+      <code>C</code> <code>Threads</code> <code>Sockets</code>
     </div>
     <a href="./chat-app" class="btn">View Tool</a>
   </div>
@@ -38,4 +38,12 @@ title: Home
 
 ## 🚀 Quick Start
 
-All tools are designed to be piped together or used as standalone binaries.
+All tools are designed to be light, fast, and pipe-able.
+
+```bash
+# Example: Compile and Run Port Scanner
+git clone [https://github.com/gab-dev-7/port-scanner](https://github.com/gab-dev-7/port-scanner)
+cd port-scanner
+gcc port_scanner.c -o scanner
+./scanner 127.0.0.1
+```

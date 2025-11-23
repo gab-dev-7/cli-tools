@@ -2,7 +2,13 @@
 ---
 
 /* IMPORTS */
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* FORCE OVERRIDE OF GITHUB THEME */
+html, body {
+  background: #050a14 !important;
+  background-image: none !important;
+}
 
 :root {
   --bg-color: #050a14;
@@ -25,9 +31,7 @@ body {
 }
 
 /* Typography */
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: 700;
   letter-spacing: -0.5px;
   margin-top: 2em;
@@ -38,8 +42,9 @@ h1 {
   line-height: 1.1;
   background: linear-gradient(to right, var(--accent-cyan), var(--accent-pink));
   -webkit-background-clip: text;
-  color: transparent; /* Fallback */
   background-clip: text;
+  color: transparent;
+  display: inline-block; /* FIXES THE GRADIENT BAR ISSUE */
   margin-bottom: 0.5rem;
 }
 
@@ -91,7 +96,7 @@ header {
   font-family: var(--font-mono);
 }
 
-/* Grid for Tools - THIS MAKES THE CARDS WORK */
+/* Grid for Tools */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -104,9 +109,7 @@ header {
   padding: 1.5rem;
   border-radius: 12px;
   border: 1px solid #1e293b;
-  transition:
-    transform 0.2s,
-    border-color 0.2s;
+  transition: transform 0.2s, border-color 0.2s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -124,55 +127,8 @@ header {
 }
 
 .card p {
-  font-size: 0.95rem;
-  color: var(--text-muted);
+    font-size: 0.95rem;
+    color: var(--text-muted);
 }
 
-/* Code Blocks */
-pre {
-  background: #000 !important;
-  border: 1px solid var(--accent-cyan);
-  padding: 1.5rem;
-  border-radius: 8px;
-  overflow-x: auto;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
-  margin: 1.5rem 0;
-}
-
-pre code {
-  background: transparent;
-  color: #fff;
-  padding: 0;
-  font-family: var(--font-mono);
-}
-
-/* Buttons */
-.btn {
-  display: inline-block;
-  background: var(--accent-pink);
-  color: white !important;
-  padding: 0.6rem 1.5rem;
-  border-radius: 50px;
-  font-weight: bold;
-  margin-top: 1rem;
-  box-shadow: 0 0 15px rgba(255, 0, 85, 0.4);
-  text-align: center;
-  font-size: 0.9rem;
-}
-
-.btn:hover {
-  background: #d40047;
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255, 0, 85, 0.6);
-  text-decoration: none;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid #1e293b;
-  color: var(--text-muted);
-  font-size: 0.9rem;
-}
+/* Code
