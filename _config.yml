@@ -1,5 +1,5 @@
 title: CLI Tools
-description: A collection of command-line tools I've developed.
+description: "A collection of high-performance security & network tools."
 baseurl: ""
 url: "https://cli.gawindlin.com"
 
@@ -7,7 +7,7 @@ url: "https://cli.gawindlin.com"
 markdown: kramdown
 permalink: pretty
 
-# CRITICAL: Set theme to blank to prevent default styles from loading
+# CRITICAL: Disable default theme to allow custom CSS to take over
 theme: null
 
 # Custom variables

@@ -1,69 +1,41 @@
-## 🛡️ Sec-Suite
+---
+layout: default
+title: Home
+---
 
-**A comprehensive security auditing toolkit for modern infrastructure**
+<div class="grid">
 
-**One-liner:** Automated security scanning and vulnerability assessment tool for DevOps pipelines.
+  <div class="card">
+    <h3>🛡️ Sec-Suite</h3>
+    <p>Automated security scanning and vulnerability assessment tool for DevOps pipelines. Integrates with CI/CD.</p>
+    <div>
+      <code>Python</code> <code>Docker</code> <code>YAML</code>
+    </div>
+    <a href="./sec-suite" class="btn">View Tool</a>
+  </div>
 
-**Key Features:**
+  <div class="card">
+    <h3>🔍 Port-Scanner</h3>
+    <p>High-performance network reconnaissance. Fast, efficient port scanning with detailed service detection.</p>
+    <div>
+      <code>Python</code> <code>Sockets</code> <code>Async</code>
+    </div>
+    <a href="./port-scanner" class="btn">View Tool</a>
+  </div>
 
-- Multi-scanner security assessment
-- CI/CD pipeline integration
-- Comprehensive reporting
-- Custom rule sets
+  <div class="card">
+    <h3>💬 Chat-App</h3>
+    <p>Real-time terminal-based chat application. Supports multiple rooms and user authentication.</p>
+    <div>
+      <code>Python</code> <code>Threading</code> <code>SQLite</code>
+    </div>
+    <a href="./chat-app" class="btn">View Tool</a>
+  </div>
 
-**Tech Stack:**
-
-- Python 3.x
-- Docker API
-- Various security scanners
-- JSON/YAML configuration
-
-[Learn more about Sec-Suite](./sec-suite)
+</div>
 
 ---
 
-## 🔍 Port-Scanner
+## 🚀 Quick Start
 
-**High-performance network reconnaissance tool**
-
-**One-liner:** Fast, efficient port scanning with detailed service detection.
-
-**Key Features:**
-
-- TCP/UDP port scanning
-- Service version detection
-- Exportable results (JSON, CSV)
-- Custom port ranges
-
-**Tech Stack:**
-
-- Python 3.x
-- Socket programming
-- Concurrent scanning
-- Argparse for CLI
-
-[Learn more about Port-Scanner](./port-scanner)
-
----
-
-## 💬 Chat-App
-
-**Real-time terminal-based chat application**
-
-**One-liner:** Command-line chat client with server capabilities for local networks.
-
-**Key Features:**
-
-- Real-time messaging
-- Multiple room support
-- User authentication
-- Message history
-
-**Tech Stack:**
-
-- Python 3.x
-- Socket programming
-- Multi-threading
-- SQLite database
-
-[Learn more about Chat-App](./chat-app)
+All tools are designed to be piped together or used as standalone binaries.
