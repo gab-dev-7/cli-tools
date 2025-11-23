@@ -1,6 +1,6 @@
 # CLI Tools Website
 
-A Jekyll-based website showcasing my command-line tools, deployed at [cli.gawindlin.com](https://cli.gawindlin.com).
+A Jekyll-based website showcasing my command-line tools.
 
 ## Overview
 
