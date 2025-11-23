@@ -1,0 +1,13 @@
+title: CLI Tools
+description: A collection of command-line tools developed by me
+baseurl: ""
+url: "https://cli.gawindlin.com"
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Custom variables
+author: Gawindlin
+github_username: gab-dev-7
