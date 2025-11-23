@@ -1,8 +1,7 @@
 title: CLI Tools
-description: A collection of command-line tools developed by me
-baseurl: ""
+description: A collection of command-line tools developed by Gawindlin
+baseurl: "/cli-tools"
 url: "https://cli.gawindlin.com"
-theme: minima
 
 # Build settings
 markdown: kramdown
