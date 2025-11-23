@@ -1,11 +1,14 @@
 title: CLI Tools
-description: A collection of command-line tools I've developed for various purposes.
+description: A collection of command-line tools I've developed.
 baseurl: ""
 url: "https://cli.gawindlin.com"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# CRITICAL: Set theme to blank to prevent default styles from loading
+theme: null
 
 # Custom variables
 author: gawindlin
